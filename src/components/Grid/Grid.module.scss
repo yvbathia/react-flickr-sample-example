@@ -1,0 +1,43 @@
+.root {
+  max-width: 1160px;
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: auto;
+  }
+  grid-column-gap: 3%;
+}
+
+.infiniteLoad {
+  margin-top: 200px;
+}
+
+.loaderContainer, .noDataContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 40px;
+  height: 40px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

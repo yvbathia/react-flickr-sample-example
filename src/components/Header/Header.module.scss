@@ -1,0 +1,28 @@
+@import "../../styles/variables.scss";
+
+.root {
+  height: 15vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background: $black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  position: relative;
+  input {
+    width: 100%;
+  }
+}
+
+.title {
+  color: $white !important;
+}
+
+.searchContainer {
+  width: 150px;
+}

@@ -1,0 +1,11 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.child {
+  margin-top: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

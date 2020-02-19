@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.historyContainer {
+  position: absolute;
+  background: $white;
+  border: 1px solid black;
+  width: 150px;
+}
+
+.history {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.text {
+  width: 50%;
+}
+.btn {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
